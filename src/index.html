@@ -12,31 +12,35 @@
 
         <!-- Header section -->
 
-        <section class="header-section  w-full h-auto border absolute  flex flex-col        justify-start items-start">
+        <section class="header-section  w-full h-auto fixed  flex flex-col justify-start items-start ">
 
-            <div class="contact-and-working-time-con w-full h-auto flex flex-col justify-end items-starte  ">
+            <div class="contact-and-working-time-con w-full h-auto flex flex-row justify-between items-center py-4 px-4 bg-black text-white bg-opacity-40 md:px-8 lg:px-[100px]">
 
-                <div class="contact-con w-50% h-auto flex flex-row justify-start       items-start gap-6">
+                <div class="contact-con w-fit h-auto flex flex-row justify-start items-start gap-2">
 
-                    <div class="phone-group">
+                    <div class="phone-group w-fit h-auto flex flex-row justify-start items-center gap-1">
                         <div class="icon-con">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" /></svg>
                         </div>
-                        <a href="#">
+                        <a href="#" class="phone-number text-sm font-sans">
                             +234 816 326 6658
                         </a>
                     </div>
-                    <div class="email-group">
+                    <div class="email-group hidden w-fit h-auto md:flex flex-row justify-start items-center gap-1">
                         <div class="icon-con">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" /><path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" /></svg>
                         </div>
-                        <a href="mailto:">mikkilensmedia@gmail.com</a>
+
+                        <a href="mailto:" class=" text-sm font-sans">mikkilensmedia@gmail.com
+
+                        </a>
+
                     </div>
                 </div>
 
-                <div class="working-time-con">
+                <div class="working-time-con w-fit h-auto flex flex-row justify-start items-center gap-6">
 
-                    <div class="time-con">
+                    <div class="time-con w-fit h-auto flex flex-row justify-start items-center gap-1">
 
                         <div class="icon-con">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-clock-hour-4"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-5 2.66a1 1 0 0 0 -1 1v5.026l.009 .105l.02 .107l.04 .129l.048 .102l.046 .078l.042 .06l.069 .08l.088 .083l.083 .062l3 2a1 1 0 1 0 1.11 -1.664l-2.555 -1.704v-4.464a1 1 0 0 0 -.883 -.993z" /></svg>
@@ -45,7 +49,7 @@
                         <p>9:00 AM - 6:00 PM</p>
                     </div>
 
-                    <div class="day-con">
+                    <div class="day-con hidden lg:flex ">
                         
                         <div class="icon-con">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-calendar-week"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 2c.183 0 .355 .05 .502 .135l.033 .02c.28 .177 .465 .49 .465 .845v1h1a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h1v-1a1 1 0 0 1 .514 -.874l.093 -.046l.066 -.025l.1 -.029l.107 -.019l.12 -.007q .083 0 .161 .013l.122 .029l.04 .012l.06 .023c.328 .135 .568 .44 .61 .806l.007 .117v1h6v-1a1 1 0 0 1 1 -1m3 7h-14v9.625c0 .705 .386 1.286 .883 1.366l.117 .009h12c.513 0 .936 -.53 .993 -1.215l.007 -.16z" /><path d="M9.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M13.015 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M17.02 13a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /><path d="M12.02 15a1 1 0 0 1 0 2a1.001 1.001 0 1 1 -.005 -2z" /><path d="M9.015 16a1 1 0 0 1 -1 1a1.001 1.001 0 1 1 -.005 -2c.557 0 1.005 .448 1.005 1" /></svg>
@@ -56,32 +60,33 @@
                 </div>
             </div>
 
-            <nav>
+            <nav class="w-full h-auto flex flex-row justify-between items-center bg-[#FFEDDD] bg-opacity-40 px-4 py-4 md:px-8 lg:px-[100px]">
                 <div class="logo-container w-[100px] h-auto ">
                     <img src="/src/Images/Main-logo.png" alt="logo" >
                 </div>
  
                 <div class="link-and-botton-container">
-                    <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <ul class="nav-links hidden w-fit h-auto md:flex flex-row justify-center items-center gap-4">
+                    <a href="#" class="text-sm hover:text-[#E5871C] hover:border-b border-[#E5871C] transition-all duration-300 ease-in-out delay-100">Home</a>
+                    <a href="#" class="text-sm hover:text-[#E5871C] hover:border-b border-[#E5871C] transition-all duration-300 ease-in-out delay-100">About Us</a>
+                    <a href="#" class="text-sm hover:text-[#E5871C] hover:border-b border-[#E5871C] transition-all duration-300 ease-in-out delay-100">Services</a>
+                    <a href="#" class="text-sm hover:text-[#E5871C] hover:border-b border-[#E5871C] transition-all duration-300 ease-in-out delay-100">Portfolio</a>
+                    <a href="#" class="text-sm hover:text-[#E5871C] hover:border-b border-[#E5871C] transition-all duration-300 ease-in-out delay-100">Contact Us</a>
+
+                    <a href="#" class="bg-[#E5871C] px-4 py-2 rounded-lg text-white text-sm font-sans hover:bg-[#cf7515] transition-all duration-300 ease-in-out delay-100 hover:scale-105">
+                    Book Now
+                     </a>
                 </ul>
 
-                <a href="#">
-                    Book Now
-                </a>
+                
 
-                <div class="icon-container-for-mobile-menu">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+                <div class="icon-container-for-mobile-menu md:hidden cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2 text-white"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
                 </div>
 
                 </div>
 
-                <div class="mobile-menu">
+                <div class="mobile-menu hidden">
 
                     <div class="logo-container-and-close-icon">
 
@@ -105,27 +110,28 @@
                     <a href="#">
                         Book Now
                     </a>
+                
+                    </div>
                 </div>
+
             </nav>
         </section>
 
-        <section class="hero">
+        <!-- hero section -->
 
-            <div class="hero-container">
+        <section class="hero w-full h-auto ">
 
-                <div class="hero-image">
+            <div class="hero-container w-full h-auto py-60 px-4 flex flex-col justify-center item-center relative -z-10 bg-[url('./Images/home-hero-image.jpg')] bg-cover bg-no-repeat bg-center md:py-72 lg:py-80 md:px-8 lg:px-[100px]">
 
-                    <img src="./Images/home-hero-image.jpg" alt="">
 
-                   <div class="hero-text-group">
+                <div class="hero-text-group w-full h-auto flex flex-col justify-start item-start gap-4 text-white">
 
-                    <h1>Mikki Lens Media</h1>
+                    <h1 class="font-sans font-bold text-5xl w-[70%]">Mikki Lens Media</h1>
                     <p>Making Memories...</p>
 
-                    <a href="#">Book Now</a>
+                    <a href="#" class="primary-button w-fit">Book Now</a>
 
                    </div>
-                </div>
             </div>
             
         </section>
