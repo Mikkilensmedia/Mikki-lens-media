@@ -759,6 +759,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -991,6 +995,10 @@ video {
 /* Custom Styles */
 
 .primary-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(229 135 28 / var(--tw-bg-opacity, 1));
