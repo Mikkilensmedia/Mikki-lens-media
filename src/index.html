@@ -66,7 +66,7 @@
             </div>
 
             <nav class="w-full h-auto flex flex-row justify-between items-center bg-[#FFEDDD] bg-opacity-80 px-4 py-4 md:px-8 lg:px-[100px]">
-                <div class="logo-container w-[100px] h-auto ">
+                <div id="deskto-logo-contaniner" class="logo-container w-[100px] h-auto ">
                     <img src="/src/Images/Main-logo.png" alt="logo" >
                 </div>
  
@@ -89,35 +89,42 @@
 
                 
 
-                <div class="icon-container-for-mobile-menu md:hidden cursor-pointer">
+                <div id="menu-button" class="icon-container-for-mobile-menu md:hidden cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2 text-[#301B04]"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
                 </div>
 
                 </div>
 
-                <div class="mobile-menu hidden">
+                <div id="mobile-menu" class="mobile-menu hidden w-full h-auto flex flex-col justify-start items-start ">
 
-                    <div class="logo-container-and-close-icon ">
+                    <div class="logo-container-and-close-icon w-full h-auto gap-4 ">
+                        <div class="logo-icon-close-cont w-full h-auto flex flex-row justify-between ">
 
-                        <div class="logo-container">
-                            <img src="/src/Images/Main-logo.png" alt="logo" >
+                            <div class="logo-container w-[100px] h-auto"> 
+
+                                <img class="cursor-pointer" src="/src/Images/Main-logo.png" alt="logo" >
+
+                            </div>
+
+                            <div id="closed-icon" class="close-icon-container ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                            </div>
+
                         </div>
 
-                        <div class="close-icon-container ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
-                    </div>
+                        
 
-                    <ul class="nav-links-mobile">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
+                        <ul class="nav-links-mobile  py-6 ">
+                            <li class="font-semibold py-1" ><a href="index.html">Home</a></li>
+                            <li class="font-semibold py-1" ><a href="about.html">About Us</a></li>
+                            <li class="font-semibold py-1" ><a href="services.html">Services</a></li>
+                            <li class="font-semibold py-1" ><a href="portfolio.html">Portfolio</a></li>
+                            <li class="font-semibold py-1" ><a href="contact.html">Contact Us</a></li>
+                        </ul>
 
-                    <a href="contact.html">
+                        <a href="contact.html" class="bg-[#E5871C] px-4 py-2 rounded-lg text-white text-sm font-sans hover:bg-[#cf7515] transition-all duration-300 ease-in-out delay-100 hover:scale-105">
                         Book Now
-                    </a>
+                         </a>
                 
                     </div>
                 </div>
@@ -468,6 +475,8 @@
        
 
     </div>
+
+    <script src="./main.js"></script>
 
 </body>
 </html>
